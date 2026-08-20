@@ -3,6 +3,9 @@
 
 ## Índice de métodos
 
+>[!WARNING]
+> Actualmente `DynamicBuffer` no posee soporte para `string`.
+
 ### Creación
 * [`.new()`](Start.md)
 
@@ -20,3 +23,4 @@
 
 ### Obtención de información
 * [`:GetLength()`](incremento.md)
+* [`:GetUsedSpace()`](incremento.md)
