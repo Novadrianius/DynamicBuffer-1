@@ -60,3 +60,5 @@ print("Espacio en uso:", myBuff:GetUsedSpace())
 Capacidad: 4
 Espacio en uso: 3
 ```
+
+Para conocer cómo modificar los valores ya escritos en un `DynamicBuffer`, puedes leer más en [Sobreescritura de Valores](sobreescritura.md).
