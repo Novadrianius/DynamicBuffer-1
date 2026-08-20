@@ -17,3 +17,8 @@ En un script de servidor, vamos a requerir el módulo de DynamicBuffer para pode
 -- Server script
 local DynamicBuffer = require(path.to.DynamicBuffer)
 ```
+
+Para crear nuestro primer buffer dinámico, usaremos el método constructor (`.new()`) de DynamicBuffer y será guardado en una variable:
+``` luau
+local myBuffer = DynamicBuffer.new()
+```
