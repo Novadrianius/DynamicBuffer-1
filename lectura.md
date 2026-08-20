@@ -1,4 +1,4 @@
-# Lectura de datos
+# Lectura de Datos
 @author: chicharron703 / Novadrianius
 
 ## Leer datos de un buffer dinámico
