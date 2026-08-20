@@ -13,7 +13,7 @@ Mi primer párrafo en MD
 
 En un script de servidor, vamos a requerir el módulo de DynamicBuffer para poder utilizarlo.
 
-``` lua
+``` luau
 -- Server script
 local DynamicBuffer = require(path.to.DynamicBuffer)
 ```
