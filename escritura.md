@@ -28,7 +28,7 @@ myBuff:int16() -- Memoria reservada (2 bytes)
 myBuff:int8(100)
 ```
 >[!NOTE]
->No pasar un argumento en los métodos de escritura sigue reservando memoria dentro del buffer, y escribe un valor de 0 pero defecto.
+>No pasar un argumento en los métodos de escritura sigue reservando memoria dentro del buffer, y escribe un valor de 0 **por** defecto.
 
 ---
 ### Métodos de escritura de números con signo
