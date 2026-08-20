@@ -21,6 +21,7 @@ Lo que terminará haciendo nuestro buffer es duplicar su capacidad hasta tener l
 Nuestro buffer tenía una capacidad de 4 bytes, pero al ser sobrepasado por sus métodos de escritura por un 1 byte más, lo que hará nuestro `DynamicBuffer` es
 duplicar su capacidad, alcanzando los 8 bytes de capacidad. Con esta capacidad ahora es suficiente para guardar los valores escritos en el buffer sin problema alguno.
 
+---
 Para conocer la capacidad de nuestro `DynamicBuffer` podemos usar el método `:GetLength()`, el cual devuelve un número que representa la capacidad en bytes que tiene
 el buffer actualmente.
 ``` luau
