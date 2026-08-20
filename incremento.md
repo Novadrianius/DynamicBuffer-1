@@ -14,7 +14,7 @@ Si nosotros creamos un `DynamicBuffer` (4 bytes de capacidad como ejemplo) y esc
 ``` luau
 local myBuff = DynamicBuffer.new()
 myBuff:uint32(1_000)
-myBuff:int8(127) -- Supera la capacidad inicial del DynamicBuffer por 1 bye
+myBuff:int8(127) -- Supera la capacidad inicial del DynamicBuffer por 1 byte
 ```
 Lo que terminará haciendo nuestro buffer es duplicar su capacidad hasta tener la suficiente para poder guardar estos valores.
 
