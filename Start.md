@@ -33,4 +33,4 @@ local myBuff = DynamicBuffer.new(8) -- Tamaño inicial de 8 bytes
 ```
 
 ---
-El siguiente paso para manejar DynamicBuffer es la [Escritura de Datos]
+El siguiente paso para manejar DynamicBuffer es la [Escritura de Datos](escritura.md)...
