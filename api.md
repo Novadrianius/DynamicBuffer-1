@@ -4,7 +4,7 @@
 >Actualmente `DynamicBuffer` no cuenta con soporte para `string`.
 ---
 
-#### Tipo de dato `DynamicBuffer`:
+### Tipo de dato `DynamicBuffer`:
 ``` luau
 local DynamicBuffer = require(path.to.DynamicBuffer)
 local myBuff: DynamicBuffer.DynamicBuffer = DynamicBuffer.new()
