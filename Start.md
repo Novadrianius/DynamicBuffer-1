@@ -3,9 +3,9 @@
 @Author: chicharron703 / Novadrianius
 
 ## Instalación
-1. Ve a roblox.com/marketplace/models/dynamicbuffer-01
-2. Descarga el modelo .rbxl.
-3. Inserta el archivo en tu juego de Roblox.
+1. Ve al modelo de [DynamicBuffer](https://create.roblox.com/store/asset/87263522449126/DynamicBuffer) en la página de Roblox.
+2. Descarga el modelo y abre Roblox Studio.
+3. Inserta el modelo en tu juego de Roblox.
 4. Crea una carpeta dentro de ReplicatedStorage y llámala "Packages".
 5. Inserta el módulo de DynamicBuffer dentro de Packages.
 
