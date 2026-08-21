@@ -5,7 +5,7 @@ El uso real de los `DynamicBuffer` suele ser desde scripts de módulo, y la sobr
 
 ---
 ## OverwriteByIndex
-Los objetos `DynamicBuffer` cuenta con el método `:OverwriteByIndex()`, el cual lleva como parámetros el índice donde quieres sobrescribir un nuevo valor y el nuevo valor
+Los objetos `DynamicBuffer` cuentan con el método `:OverwriteByIndex()`, el cual lleva como parámetros el índice donde quieres sobrescribir un nuevo valor y el nuevo valor
 que se va a escribir dentro del `DynamicBuffer`.
 
 ``` luau
