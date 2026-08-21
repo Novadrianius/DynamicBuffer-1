@@ -8,6 +8,8 @@
 * **Facilidad de lectura**: Con `DynamicBuffer` puedes leer y obtener los valores del buffer sin la necesidad de conocer el tipo de dato que está escrito en el buffer gracias al uso de índices.
   
 * **Manejo de capacidad automática**: En la librería `buffer` tienes que definir un tamaño fijo para tu buffer. Con `DynamicBuffer` no tienes que preocuparte por el tamaño de tu buffer, pues este se ajusta de forma automática.
+
+* **Optimización de ancho de banda**: Al manejar buffers, el ancho de banda de la red a la hora de usar `Remotes` es mucho más optimizado que mandar datos sin serializar.
   
 * **Características adicionales**: Puedes conocer con facilidad cuál es la capacidad actual del buffer y cuánto espacio (en bytes) está siendo ocupado actualmente.
 
