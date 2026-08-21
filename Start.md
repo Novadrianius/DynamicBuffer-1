@@ -33,7 +33,7 @@ local myBuff = DynamicBuffer.new()
 myBuff:int16(-100)
 myBuff:uint16(100)
 
-local value = myBuff:GetValueByIndex(0)
+local value = myBuff:GetValueByIndex(1)
 ```
 
 ---
