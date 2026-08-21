@@ -9,7 +9,7 @@ Los `DynamicBuffers` son igual de sencillos de manejar que una `table` de Roblox
 ### `GetValueByIndex`
 Si tenemos un `DynamicBuffer` con varios valores escritos y queremos leer (obtener) el primer valor de este, basta con usar el método `:GetValueByIndex()`.
 
-`:GetValueByInex()` lleva como parámetro un número, el cual es el índice que se desea leer dentro del `DynamicBuffer` (iniciando desde el índice 0).
+`:GetValueByIndex()` lleva como parámetro un número, el cual es el índice que se desea leer dentro del `DynamicBuffer` (iniciando desde el índice 0).
 ``` luau
 local myBuff = DynamicBuffer.new(8)
 
