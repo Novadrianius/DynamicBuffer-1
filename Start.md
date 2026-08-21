@@ -14,7 +14,7 @@
 * **Características adicionales**: Puedes conocer con facilidad cuál es la capacidad actual del buffer y cuánto espacio (en bytes) está siendo ocupado actualmente.
 
 >[!WARNING]
->Hay información a considerar del porque `DynamicBuffer` no podría reemplazar a la librería nativa de `buffer` a la hora de desarrollar por completo.
+>Hay información a considerar del por qué `DynamicBuffer` no podría reemplazar a la librería nativa de `buffer` a la hora de desarrollar por completo.
 
 Aunque `DynamicBuffer` te permite manejar buffers de manera sencilla, si quieres aprovechar la máxima velocidad posible en el rendimiento de tus scripts, `buffer` sigue siendo la mejor opción.
 
