@@ -56,3 +56,5 @@ Esto permite que manejar buffers sea como manejar tablas. La única diferencia s
 >Pasar un índice inválido al método `:GetValueByIndex()` simplemente mostrará un mensaje diciendo que se intentó acceder a un índice fuera de memoria del `DynamicBuffer`.
 ---
 Puedes conocer el comportamiento de un `DynamicBuffer` respecto al manejo de su tamaño en [Incremento de Tamaño](incremento.md).
+
+## [Volver a inicio](README.md)
