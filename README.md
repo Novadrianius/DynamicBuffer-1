@@ -7,19 +7,19 @@
 > Actualmente `DynamicBuffer` no posee soporte para `string`.
 
 ### Creación
-* [`.new()`](Start.md)
+* [`.new(number?)`](Start.md)
 
 ### Escritura y lectura
-* [`:int8()`](escritura.md)
-* [`:int16()`](escritura.md)
-* [`:int32()`](escritura.md)
-* [`:uint8()`](escritura.md)
-* [`:uint16()`](escritura.md)
-* [`:uint32()`](escritura.md)
-* [`:float32()`](escritura.md)
-* [`:float64()`](escritura.md)
-* [`:OverwriteByIndex()`](sobreescritura.md)
-* [`:GetValueByIndex()`](lectura.md)
+* [`:int8(number?)`](escritura.md)
+* [`:int16(number?)`](escritura.md)
+* [`:int32(number?)`](escritura.md)
+* [`:uint8(number?)`](escritura.md)
+* [`:uint16(number?)`](escritura.md)
+* [`:uint32(number?)`](escritura.md)
+* [`:float32(number?)`](escritura.md)
+* [`:float64(number?)`](escritura.md)
+* [`:OverwriteByIndex(number, number | string)`](sobreescritura.md)
+* [`:GetValueByIndex(number)`](lectura.md)
 
 ### Obtención de información
 * [`:GetLength()`](incremento.md)
