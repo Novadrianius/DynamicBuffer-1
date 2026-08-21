@@ -47,14 +47,14 @@ local myBuff = require(path.to.myBuff)
 RemoteEvent.OnServerEvent:Connect(function(clientBuffer: buffer)
   local success, newBuff: DynamicBuffer = myBuff:ImportBuffer(clientBuffer)
   if success then
-    -- ...
+    print(newBuff:GetLength())
   else
-    -- ...
+    warn "¡Buffer no compatible!"
   end
 end)
 ```
 >[!CAUTION]
->`:ImportBuffer()` aunque devuelva un `boolean` que confirme la compatibilidad, la seguridad para importar buffers a un `DynamicBuffer` todavía no es buena. Ten
->cuidado a lahora de importar buffers.
+>aunque `:ImportBuffer()` devuelva un `boolean` que confirme la compatibilidad, la seguridad para importar buffers a un `DynamicBuffer` todavía no es buena. Ten
+>cuidado a la hora de importar buffers.
 
 Esto quiere decir que aunque `DynamicBuffer` muestre que son compatibles, pueden ser buffers con valores distintos, pero con la misma memoria reservada.
