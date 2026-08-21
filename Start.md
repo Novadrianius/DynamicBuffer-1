@@ -18,6 +18,24 @@
 
 Aunque `DynamicBuffer` te permite manejar buffers de manera sencilla, si quieres aprovechar la máxima velocidad posible en el rendimiento de tus scripts, `buffer` sigue siendo la mejor opción.
 
+
+**Con `buffer`:**
+``` luau
+local myBuff = buffer.create(4)
+buffer.writei16(myBuff, 0, -100)
+buffer.writeu16(myBuff, 2, 100)
+
+local value = buffer.readu16(myBuff, 2)
+```
+**Con `DynamicBuffer`:**
+``` luau
+local myBuff = DynamicBuffer.new()
+myBuff:int16(-100)
+myBuff:uint16(100)
+
+local value = myBuff:GetValueByIndex(0)
+```
+
 ---
 ## Instalación
 1. Ve al modelo de [DynamicBuffer](https://create.roblox.com/store/asset/87263522449126/DynamicBuffer) en la página de Roblox.
