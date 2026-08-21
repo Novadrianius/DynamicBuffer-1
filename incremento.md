@@ -52,7 +52,7 @@ local myBuff = DynamicBuffer.new()
 myBuff:uint8(100)
 myBuff:uint16(200)
 
-print("Capacidad:", myBuffer:GetLength())
+print("Capacidad:", myBuff:GetLength())
 print("Espacio en uso:", myBuff:GetUsedSpace())
 ```
 **Output**
