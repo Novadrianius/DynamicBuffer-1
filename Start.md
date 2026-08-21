@@ -25,7 +25,7 @@ Aunque `DynamicBuffer` te permite manejar buffers de manera sencilla, si quieres
 5. Inserta el módulo de DynamicBuffer dentro de Packages.
 
 ---
-En un script de servidor, vamos a requerir el módulo de DynamicBuffer para poder utilizarlo.
+En un script (ya sea de cliente o de servidor), vamos a requerir el módulo de DynamicBuffer para poder utilizarlo.
 
 ``` luau
 -- Server script
