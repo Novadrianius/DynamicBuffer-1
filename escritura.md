@@ -79,3 +79,5 @@ Aunque ambos métodos manejen valores flotantes, `:float64()` es el que mayor pr
 
 ---
 El siguiente paso para aprender `DynamicBuffer` es la [Lectura de Datos](lectura.md).
+
+## [Volver a inicio](README.md)
