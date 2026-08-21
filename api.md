@@ -9,11 +9,11 @@
 local DynamicBuffer = require(path.to.DynamicBuffer)
 local myBuff: DynamicBuffer.DynamicBuffer = DynamicBuffer.new()
 ```
-**Otra opción:**
+**Otras opciones:**
 ``` luau
-local DynmicBuffer = require(path.to.DynamicBuffer)
-
 type DynamicBuffer = typeof(DynamicBuffer.new())
+
+type DynamicBuffer = DynamicBuffer.DynamicBuffer
 
 local myBuff: DynamicBuffer = DynamicBuffer.new()
 ```
