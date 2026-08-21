@@ -11,10 +11,10 @@ que se va a escribir dentro del `DynamicBuffer`.
 ``` luau
 local myBuff = DynamicBuffer.new()
 myBuff:int16(500)
-print("Indice 0 =", myByff:GetValueByIndex(0))
+print("Indice 0 =", myBuff:GetValueByIndex(0))
 
 myBuff:OverwriteByIndex(0, 300)
-print("Indice 0 =", myByff:GetValueByIndex(0))
+print("Indice 0 =", myBuff:GetValueByIndex(0))
 ```
 **Output**
 ``` text
