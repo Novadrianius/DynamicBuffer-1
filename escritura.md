@@ -47,7 +47,7 @@ Los métodos para los números sin signo llevan el mismo nombre que los métodos
 ``` luau
 myBuff:uint8(255) -- Entero de 8 bits sin signo
 myBuff:uint16()
-muBuff:uint32(-100) -- Tiene un signo (negativo). No se puede
+myBuff:uint32(-100) -- Tiene un signo (negativo). No se puede
 ```
 >[!NOTE]
 > Cuando pasas como argumento un número con signo negativo a estos métodos, automáticamente los convierte a 0.
@@ -74,8 +74,8 @@ Aunque ambos métodos manejen valores flotantes, `:float64()` es el que mayor pr
 >Tanto `:float32()` como `:float64()` pueden manejar valores negativos.
 
 ### Tamaño en bytes
-* `:float32()`: 4 bytes
-* `:float64()`: 8 bytes
+* `:float32()`: 4 bytes y 7 dígitos decimales de precisión.
+* `:float64()`: 8 bytes y 15-17 dígitos decimales de precisión.
 
 ---
 El siguiente paso para aprender `DynamicBuffer` es la [Lectura de Datos](lectura.md).
