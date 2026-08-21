@@ -48,3 +48,6 @@ myBuff:OverwriteByIndex(2, player.data.money)
 ```
 
 Y el `DynamicBuffer` ya tendría los valores listos para que después sea enviado por la red hacia el servidor mediante un `RemoteEvent`.
+
+---
+Para conocer como manejar los buffers y mandarlos por la red, puedes leer [Importación y Exportación](importacion-exportacion.md).
